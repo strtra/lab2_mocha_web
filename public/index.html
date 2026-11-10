@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/12.0.3/mocha.css"
+        integrity="sha512-knd//nWTAZGyzZ4rUR9aCIPDAes2wysV3gL3CFgFfRblL/21YOUnEAzYLNQY210mrA3JmpisvSrwza5v431Ypw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <h1>mocha web練習1234</h1>
+    <div id="mocha">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/12.0.3/mocha.js"
+            integrity="sha512-tsYb6XZI0xk36lsTjPIpC1hybVDEgt+Bdv+k6WfkHiAtmZCSmP7JFhnuxUVO34d/PHxjBEb+rKFg9BnbGCV3WQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="http://chaijs.com/chai.js"></script>
+        <script>
+            var expect = chai.expect;
+            mocha.setup('bdd');
+        </script>
+        <script src="/public/sum.js"></script>
+        <script src="/public/sum.test.js"></script>
+        <script>
+            mocha.run()
+        </script>
+    </div>
+    <script src="" async defer></script>
+</body>
+
+</html>
